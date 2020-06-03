@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/dis_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/State"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call state"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/dis_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Feedback"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/dis_feed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="feedback" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+
+</LinearLayout>
