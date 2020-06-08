@@ -63,6 +63,8 @@ public class CallReceiver extends BroadcastReceiver {
         customPhoneListener.onCallStateChanged(context, state, phone_number);
         Toast.makeText(context, "This is " +phone_number , Toast.LENGTH_SHORT).show();
 
+        
+        // satuti calling defined is wrong , just call another activity and show name, number , call states .
         if(phone_number.equals(p1)|| phone_number.equals(p2) || phone_number.equals(p3) || phone_number.equals(p4)){
 
             Toast.makeText(context,"Match"+phone_number,Toast.LENGTH_LONG).show();
